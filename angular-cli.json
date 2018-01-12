@@ -18,14 +18,17 @@
       "prefix": "app",
       "mobile": false,
       "styles": [
-        "styles.css"
+        "styles.css",
+        "../node_modules/vis/dist/vis.css"
       ],
-      "scripts": [],
-      "environments": {
-        "source": "environments/environment.ts",
-        "dev": "environments/environment.ts",
-        "prod": "environments/environment.prod.ts"
-      }
+      "scripts": [
+        "../node_modules/vis/dist/vis.min.js"
+      ],
+      "environmentSource": "environments/environment.ts",
+"environments": {
+  "dev": "environments/environment.ts",
+  "prod": "environments/environment.prod.ts"
+}
     }
   ],
   "addons": [],
